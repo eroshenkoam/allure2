@@ -8,16 +8,16 @@ bintray {
 
     publish = true
     pkg {
-        userOrg = 'qameta'
+        userOrg = 'eroshenkoam'
         repo = 'maven'
         name = 'allure2'
         desc = 'Allure Report'
-        websiteUrl = 'https://github.com/allure-framework/allure2'
-        issueTrackerUrl = 'https://github.com/allure-framework/allure2'
-        vcsUrl = 'https://github.com/allure-framework/allure2.git'
+        websiteUrl = 'https://github.com/eroshenkoam/allure2'
+        issueTrackerUrl = 'https://github.com/eroshenkoam/allure2'
+        vcsUrl = 'https://github.com/eroshenkoam/allure2.git'
         licenses = ['Apache-2.0']
 
-        githubRepo = 'allure-framework/allure2'
+        githubRepo = 'eroshenkoam/allure2'
         githubReleaseNotesFile = 'README.md'
 
         version {
