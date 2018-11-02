@@ -3,10 +3,10 @@ description = 'Allure Commandline'
 apply plugin: 'application'
 mainClassName = 'io.qameta.allure.CommandLine'
 distZip {
-    archiveName = "allure-${project.version}.zip"
+    into("allure-${project.version}")
 }
 distTar {
-    archiveName = "allure-${project.version}.zip"
+    into("allure-${project.version}")
 }
 
 startScripts {
