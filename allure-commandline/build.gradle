@@ -1,6 +1,7 @@
 description = 'Allure Commandline'
 
 apply plugin: 'application'
+applicationName = 'allure'
 mainClassName = 'io.qameta.allure.CommandLine'
 
 startScripts {
