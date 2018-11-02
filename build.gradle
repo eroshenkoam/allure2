@@ -78,7 +78,11 @@ allprojects {
         compression = Compression.GZIP
     }
 
+    apply plugin: 'maven'
     apply plugin: 'io.spring.dependency-management'
+    apply from: "${gradleScriptDir}/bintray.gradle"
+    apply from: "${gradleScriptDir}/maven-publish.gradle"
+
     dependencyManagement {
         imports {
             mavenBom 'com.fasterxml.jackson:jackson-bom:2.9.6'
